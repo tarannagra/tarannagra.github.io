@@ -1,0 +1,4 @@
+# I don't want people to see the markdown files I make, only the HTML
+*.Rmd
+# You ain't gonna see the Makefile either lol
+Makefile
