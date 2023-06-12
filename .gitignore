@@ -3,3 +3,6 @@
 # You ain't gonna see the Makefile either lol
 Makefile
 *.yml
+
+tests/
+index_files/
