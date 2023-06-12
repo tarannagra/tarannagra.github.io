@@ -276,6 +276,14 @@ $(document).ready(function () {
         font-size: 18px;
     }
 </style>
+<script>
+    // navbar brand shit fuckery i hate this
+    document.addEventListener("DOMContentLoaded", () => {
+        var navbarBrand = document.querySelector(".navbar-brand");
+
+        navbarBrand.href = "../index.html";
+    });
+</script>
 <div id="hello-world" class="section level1">
 <h1>Hello World</h1>
 <p>How are you world?</p>
