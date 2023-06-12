@@ -2,3 +2,4 @@
 *.Rmd
 # You ain't gonna see the Makefile either lol
 Makefile
+*.yml
