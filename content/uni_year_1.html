@@ -11,15 +11,15 @@
 
 
 
-<title>University Work</title>
+<title>Year 1 University Work</title>
 
-<script src="uni_work_files/header-attrs-2.21/header-attrs.js"></script>
-<script src="uni_work_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="uni_year_1_files/header-attrs-2.21/header-attrs.js"></script>
+<script src="uni_year_1_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="uni_work_files/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
-<script src="uni_work_files/bootstrap-3.3.5/js/bootstrap.min.js"></script>
-<script src="uni_work_files/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
-<script src="uni_work_files/bootstrap-3.3.5/shim/respond.min.js"></script>
+<link href="uni_year_1_files/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="uni_year_1_files/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="uni_year_1_files/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="uni_year_1_files/bootstrap-3.3.5/shim/respond.min.js"></script>
 <style>h1 {font-size: 34px;}
        h1.title {font-size: 38px;}
        h2 {font-size: 30px;}
@@ -29,9 +29,11 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
-<script src="uni_work_files/navigation-1.1/tabsets.js"></script>
-<link href="uni_work_files/highlightjs-9.12.0/default.css" rel="stylesheet" />
-<script src="uni_work_files/highlightjs-9.12.0/highlight.js"></script>
+<script src="uni_year_1_files/navigation-1.1/tabsets.js"></script>
+<link href="uni_year_1_files/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="uni_year_1_files/highlightjs-9.12.0/highlight.js"></script>
+<link href="uni_year_1_files/font-awesome-6.2.1/css/all.min.css" rel="stylesheet" />
+<link href="uni_year_1_files/font-awesome-6.2.1/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -248,12 +250,32 @@ $(document).ready(function () {
 <li>
   <a href="about.html">About</a>
 </li>
-<li>
-  <a href="uni_work.html">University Work</a>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    University Work
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="uni_year_1.html">Year 1</a>
+    </li>
+  </ul>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        
+        <li>
+  <a href="mailto:tarannagra31@gmail.com">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://github.com/tarannagra">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
@@ -263,7 +285,7 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">University Work</h1>
+<h1 class="title toc-ignore">Year 1 University Work</h1>
 
 </div>
 
@@ -284,9 +306,66 @@ $(document).ready(function () {
         navbarBrand.href = "../index.html";
     });
 </script>
-<div id="hello-world" class="section level1">
-<h1>Hello World</h1>
-<p>How are you world?</p>
+<div id="all-of-my-university-work-including-notes-and-past-assessments"
+class="section level1">
+<h1>All of my university work including notes and past assessments</h1>
+<p>If you do plan to use any of this, please either don’t blatantly copy
+me as that’s plagarism or if you are using this as a reference, I
+suggest you reference me or this will also be flagged :p.</p>
+<div id="year-1" class="section level2">
+<h2>Year 1</h2>
+<p>In my first year, I had done a range of different modules to get me
+started on my course. They are the following:</p>
+<ul>
+<li>Semester 1:
+<ul>
+<li><a href="#id_4000CEM">4000CEM</a>: Programming and Algorithms</li>
+<li>4067CEM: Software Design</li>
+<li>4068CEM: Mathematics for Computer Science</li>
+<li>4071CEM: Activity Led Computer Science Project 1</li>
+</ul></li>
+<li>Semester 2:
+<ul>
+<li>4003CEM: Object Oriented Programming</li>
+<li>4004CEM: Computer Architecture and Networks</li>
+<li>4005CEM: Database Systems</li>
+<li>4075CEM: Activity Led Computer Science Project 2</li>
+<li>A150CES: Effective Communication Skills 1</li>
+</ul></li>
+</ul>
+<div id="cem" class="section level3">
+<h3>4000CEM</h3>
+<p>Programming and Algorithms is the module that introduces Python 3 to
+all. We had started to learn the bare minimum basics and then
+immediately jumped to the higher level programming like mathematics in
+Python. If you know anything about me, it’s a known fact that I despise
+mathematics in programming so much. I don’t really have much that I can
+show on this module since I had been doing Python 3 for the last 3 years
+prior to this module starting. However, here is a snippet from the
+course that we had to solve as part of a lab task:</p>
+<pre class="python"><code>def bubbleSort(array):
+    n = len(array)
+    while (n &gt; 0):
+        lastModifiedIndex = 0
+        currentIndex = 1
+        while (currentIndex &lt; n):
+            # if the item at the previous index is greater than the item at the `currentIndex`, swap them
+            if (array[currentIndex - 1] &gt; array[currentIndex]):
+                # swap
+                temp = array[currentIndex - 1]
+                array[currentIndex - 1] = array[currentIndex]
+                array[currentIndex] = temp
+                # save the index that was modified
+                lastModifiedIndex = currentIndex
+            currentIndex += 1
+            # save the last modified index so we know not to iterate past it since all proceeding values are sorted
+        n = lastModifiedIndex
+    return n</code></pre>
+<p>Now I wouldn’t call this bad except it was required in the 9th week
+of the module - at this time, people still barely knew how to define a
+variable.</p>
+</div>
+</div>
 </div>
 
 <p style="font-size: 15px;">Copyright &copy; Taran Nagra 2023. All rights reserved.</p>
