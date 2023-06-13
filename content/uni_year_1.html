@@ -30,6 +30,7 @@
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
 <script src="uni_year_1_files/navigation-1.1/tabsets.js"></script>
+<script src="uni_year_1_files/navigation-1.1/codefolding.js"></script>
 <link href="uni_year_1_files/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="uni_year_1_files/highlightjs-9.12.0/highlight.js"></script>
 <link href="uni_year_1_files/font-awesome-6.2.1/css/all.min.css" rel="stylesheet" />
@@ -218,6 +219,9 @@ $(document).ready(function () {
 </style>
 
 <!-- code folding -->
+<style type="text/css">
+.code-folding-btn { margin-bottom: 4px; }
+</style>
 
 
 
@@ -283,6 +287,14 @@ $(document).ready(function () {
 
 <div id="header">
 
+<div class="btn-group pull-right float-right">
+<button type="button" class="btn btn-default btn-xs btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
+<ul class="dropdown-menu dropdown-menu-right" style="min-width: 50px;">
+<li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
+<li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
+</ul>
+</div>
+
 
 
 <h1 class="title toc-ignore">Year 1 University Work</h1>
@@ -317,22 +329,29 @@ suggest you reference me or this will also be flagged :p.</p>
 <p>In my first year, I had done a range of different modules to get me
 started on my course. They are the following:</p>
 <ul>
-<li>Semester 1:
+<li><a href="#semester-1">Semester 1</a>:
 <ul>
-<li><a href="#id_4000CEM">4000CEM</a>: Programming and Algorithms</li>
-<li>4067CEM: Software Design</li>
-<li>4068CEM: Mathematics for Computer Science</li>
-<li>4071CEM: Activity Led Computer Science Project 1</li>
+<li><a href="#cem">4000CEM</a>: Programming and Algorithms</li>
+<li><a href="#cem-1">4067CEM</a>: Software Design</li>
+<li><a href="#cem-2">4068CEM</a>: Mathematics for Computer Science</li>
+<li><a href="#cem-3">4071CEM</a>: Activity Led Computer Science Project
+1</li>
 </ul></li>
-<li>Semester 2:
+<li><a href="#semester-2">Semester 2</a>:
 <ul>
-<li>4003CEM: Object Oriented Programming</li>
-<li>4004CEM: Computer Architecture and Networks</li>
-<li>4005CEM: Database Systems</li>
-<li>4075CEM: Activity Led Computer Science Project 2</li>
-<li>A150CES: Effective Communication Skills 1</li>
+<li><a href="#cem-4">4003CEM</a>: Object Oriented Programming</li>
+<li><a href="#cem-5">4004CEM</a>: Computer Architecture and
+Networks</li>
+<li><a href="#cem-6">4005CEM</a>: Database Systems</li>
+<li><a href="#cem-7">4075CEM</a>: Activity Led Computer Science Project
+2</li>
+<li><a href="#ces">A150CES</a>: Effective Communication Skills 1</li>
 </ul></li>
 </ul>
+</div>
+<div id="semester-1" class="section level2">
+<h2>Semester 1</h2>
+<hr />
 <div id="cem" class="section level3">
 <h3>4000CEM</h3>
 <p>Programming and Algorithms is the module that introduces Python 3 to
@@ -364,6 +383,65 @@ course that we had to solve as part of a lab task:</p>
 <p>Now I wouldn’t call this bad except it was required in the 9th week
 of the module - at this time, people still barely knew how to define a
 variable.</p>
+</div>
+<div id="cem-1" class="section level3">
+<h3>4067CEM</h3>
+<p>Software Design is the module that describes the different
+fundamentals about software design - mainly Object Oriented Programming
+(OOP), development and management. We had used different tools to learn
+about the different software development frameworks to maintaining it,
+agile and scrum frameworks using Microsoft Azure (we had a live
+demonstration about this a lecture hall one day). I personally didn’t
+like this module however I had learnt some valuable team building skills
+in this module.</p>
+</div>
+<div id="cem-2" class="section level3">
+<h3>4068CEM</h3>
+<p>Mathematics for Computer Science is the module I am so glad I passed
+first time. I hated this more than the prior software design module. The
+mathematics is a nice skill set to learn as this the way that computers
+process and how programming languages work. At the start of this module,
+it was all over the place as we initially started on “counting” then we
+jumped into the more higher level of mathematics. To start it off, we
+had to learn set theory; logic such as truth tables and the act of
+proving if x == y and vice versa. We all needed to do it, but this was a
+lot to do straight away. Here is an example of one of the questions I
+had in the first mathematics examination:</p>
+<p><img src="../assets/images/maths_question.png" /></p>
+</div>
+<div id="cem-3" class="section level3">
+<h3>4071CEM</h3>
+<p>Activity Led Computer Science Project 1 is a module that allows us to
+use all that we have been learning in the other modules of this semester
+to let us all show our knowledge of what we know. The brief of this
+module:</p>
+<p><img src="../assets/images/activity_led_1.png" /></p>
+<p>This doesn’t seem all bad, but I had fufilled the entirety of the
+brief and only had gotten 40% out of the full 100%. Check my <a
+href="https://github.com/tarannagra/past-uni-work/tree/main/Year%201/Semester%201/4071CEM">code</a>
+and you can be the judge and see what grade I deserved.</p>
+</div>
+</div>
+<div id="semester-2" class="section level2">
+<h2>Semester 2</h2>
+<hr />
+<div id="cem-4" class="section level3">
+<h3>4003CEM</h3>
+<p>Object Oriented Programming (OOP) is the module that allows us to
+build from our software design module where we had learnt the
+fundamentals of OOP and the bare understanding of Python in <a
+href="#cem">4000CEM</a>. In this module however, we had done C++ instead
+of the continuation of Python. The assessment for this was also closed
+book, meaning that we couldn’t do it elsewhere and only under
+supervision in the classroom. I had actually preferred this over with
+other people as I could concentrate well and get my work done in silence
+bar the mouse clicks around the room. Luckily I had passed both closed
+book examinations first time, thanks to me learning the language the way
+I tend to learn most things in life, making a massive repo about it. <a
+href="https://github.com/tarannagra/past-uni-work/tree/main/Year%201/Semester%202/4003CEM-Exam-Practise">Click
+here to view it, there is a lot there.</a>. Fun fact about this: I
+learnt all of that within 2 weeks and passed first time while also
+getting a 1st in both exams.</p>
 </div>
 </div>
 </div>
@@ -402,6 +480,11 @@ $(document).ready(function () {
 </script>
 
 <!-- code folding -->
+<script>
+$(document).ready(function () {
+  window.initializeCodeFolding("hide" === "show");
+});
+</script>
 
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
