@@ -1,3 +1,5 @@
-# tarannagra.github.io
+# Taran's Portfolio
 
-This is my personal website hosted by the lovely GitHub pages.
+Hello, welcome to my professional portfolio, hosted by X.
+
+More information will be added here once the website has a starting base.
